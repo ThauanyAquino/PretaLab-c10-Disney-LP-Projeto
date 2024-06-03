@@ -20,12 +20,12 @@ return;
 
 }
 
- if (palpiteDigitado < numeroAleatorio)
+ else if (palpiteDigitado < numeroAleatorio)
     tentativas++;
    atualizarFeedback ("O número é muito baixo. Tente novamente!")
  
 
-if (palpiteDigitado > numeroAleatorio)
+else if (palpiteDigitado > numeroAleatorio)
   tentativas++;
     atualizarFeedback("O número é muito alto. Tente novamente!")
 
